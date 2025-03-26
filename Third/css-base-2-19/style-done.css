@@ -1,0 +1,101 @@
+p {
+    color: red;
+    border: 4px dotted red;
+    border-style: dotted;
+    border-width: 4px;
+    border-color: red;
+    border-left-style: solid;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: rgb(0, 255, 213);
+}
+#para1 {
+    color: green;
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+}
+.colortext {
+    color: blue;
+}
+body {
+    background-color: yellow;
+    background-image: url(assets/background.avif);
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+}
+h1 {
+    background-color: lightblue;
+    margin-left: 20px;
+    margin: 20px 40px;
+    margin: auto;
+    padding: 30px;
+    padding: 40px 10px;
+    height: 100px;
+    width: 50%;
+    text-transform: uppercase;
+    font-family: Verdana;
+    font-style: italic;
+    font-size: 50px;
+    /* visibility: hidden;
+    display: none; */
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    z-index: -2;
+}
+h2 {
+    position: absolute;
+    top: 50 px;
+    background-color: bisque;
+}
+.text {
+    width: 200px;
+    border: 2px solid red;
+    padding: 25px;
+    margin-left: 25px;
+    outline: 5px solid black;
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+a:visited {
+    color: green;
+}
+.intro {
+    text-indent: 20px;
+}
+ul {
+    list-style-type: square;
+    list-style-image: url(assets/klematis.jpg);
+    list-style-type: none;
+    list-style-image: none;
+    display: inline; 
+}
+ol {
+    list-style-type: upper-roman;
+    display: inline; 
+}
+table, td, th  {
+    border: 2px green solid;
+    border-collapse: collapse;
+}
+td {
+    text-align: right;
+}
+th {
+    padding: 15px;
+    background-color: lightblue;
+}
+strong {
+    display: block;
+}

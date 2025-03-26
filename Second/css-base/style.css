@@ -1,0 +1,66 @@
+p{
+    color: red;
+    border: 4px red dashed;
+    border-left-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#para1{
+    color: green;
+}
+
+.colortext{
+    color: blue;
+}
+
+body{
+    background-color: yellow; 
+    background-image:url("assets/background.avif");
+    background-repeat: no-repeat;
+    background-attachment:fixed
+}
+
+h1{
+    color: lightblue;
+    margin: 40px 20px 40px 20px;
+    margin-top: 30px;
+    margin: 30px;
+    padding: 40px 10px 40px 10px;
+    width: 50%;
+    height: 100px;
+    margin: auto;
+    width: fit-content;
+    text-transform:uppercase;
+    font-family:"Verdana";
+    font-style:italic;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text{
+    width: 200px;
+    border: 2px red solid;
+    padding: 25px;
+    outline: 5px solid black;
+}
+
+a{
+    text-decoration: none;
+    color:red;
+    
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+a:visited{
+    color: green;
+}
+
+.intro{
+    text-indent: 20px;
+}
