@@ -7,7 +7,7 @@ body {
     max-width: 1130px;
     margin: 0 auto;
 }
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6, p{
     margin: 0;
 }
 header {
@@ -53,6 +53,8 @@ h1 {
 .main-info-text {
     font-size: 20px;
     color: #1F1F1F;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 .main-info-buttons {
     display: flex;
@@ -280,4 +282,56 @@ h4 {
 }
 .start-items p::before{
     content: url(assets/last_mark.svg);
+}
+.footer-up{
+    margin: 130px 0 64px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo{
+    width: 430px;
+}
+.footer-logo-links{
+    color: #0070A0;
+}
+.footer-logo p{
+    margin: 0;
+}
+.footer-logo img{
+    margin-bottom: 19px;
+}
+.footer-nav a{
+    display: block;
+    color: #626A72;
+    margin-bottom: 10px;
+}
+h6{
+    margin-bottom: 16px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.footer-news{
+    width: 220px;
+}
+.footer-news input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #C2CDD8;
+    padding: 17px 0 7px 15px;
+}
+.footer-news button::after{
+    content: url(assets/arrow.svg);
+}
+.footer-news button{
+    border: none;
+    background: none;
+}
+.footer-down{
+    padding: 35px 0 32px 0;
+    border-top: 1px solid #DEE5EB;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-social a{
+    margin-right: 20px;
 }
