@@ -1,0 +1,354 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Source Sans 3";
+    color: #333;
+    background-color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #3772FF;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #2855C7;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.more {
+    color: #3772FF;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.more::after {
+    content: ' →';
+}
+
+.call-me-span::after{
+    content: url(assets/phone.svg);
+}
+
+/* Шапка сайта */
+header {
+    background-color: #fff;
+    width: 100%;
+    z-index: 1000;
+}
+
+.top-header {
+    padding: 10px 0;
+    margin: 10px 0 15px 0;
+}
+
+.top-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts {
+    display: flex;
+    gap: 30px;
+}
+
+.email, .phone {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-right:20px;
+}
+
+.email span, .phone span {
+    font-size: 14px;
+    color: #777;
+}
+
+.email a, .phone a {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main-header {
+    border-top: 1px solid #888888;
+    padding: 10px 0;
+    margin: 0 155px;
+    font-size: 16px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin-right: 40px;
+    font-weight: 400;
+}
+
+.call-me{
+    margin-left: 20px;
+    margin-right: 0;
+}
+.call-me-link{
+    color: #3772FF;
+}
+nav ul li a {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Секция Hero */
+#hero {
+    padding: 0;
+    position: relative;
+    margin-top: 20px;
+}
+
+.hero-content {
+    padding: 60px 0 40px;
+    display: flex;
+    justify-content:flex-start ;
+    align-items: center;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 15px;
+    width: 580px;
+    height: 144px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-description {
+    width: 379px;
+}
+
+.hero-description p {
+    font-size: 16px;
+    color: #555;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.contact-info, .contact-form {
+    flex: 1;
+    min-width: 300px;
+}
+
+.contact-info h3, .contact-form h3 {
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+}
+
+.contact-info p {
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+    outline: none;
+    border-color: #e74c3c;
+}
+
+/* Подвал */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 60px 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-logo, .footer-links, .footer-social {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-logo h3 {
+    color: #fff;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.footer-links h4, .footer-social h4 {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #aaa;
+}
+
+.footer-links ul li a:hover {
+    color: #e74c3c;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+}
+
+/* Медиа-запросы для адаптивности */
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+    }
+    
+    nav ul {
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    nav ul li {
+        margin: 5px 10px;
+    }
+    
+    .hero-content h2 {
+        font-size: 2.2rem;
+    }
+    
+    section {
+        padding: 60px 0;
+    }
+    
+    section h2 {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+    
+    .hero-content h2 {
+        font-size: 1.8rem;
+    }
+    
+    .hero-content p {
+        font-size: 1rem;
+    }
+    
+    section h2 {
+        font-size: 1.8rem;
+    }
+    
+    .service-icon {
+        font-size: 2.5rem;
+    }
+    
+    .service-card h3 {
+        font-size: 1.3rem;
+    }
+}
