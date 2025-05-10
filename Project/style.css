@@ -307,75 +307,43 @@ nav ul li a {
 /* Подвал */
 footer {
     width: 100%;
+    height: 305px;
     margin: 0;
     background-color: #333333;
-    padding: 60px 0 20px;
+    padding: 56px 0 0 130px;
 }
 
-.footer-content {
+.footer-logo{
+    margin-right: 420px;
+}
+
+.footer-colum{
+    margin-right: 57px;
+    width: 155px;
+    height: 191px;
+}
+
+.footer-colum a{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-colum ul li{
+    margin-bottom: 24px;
+}
+
+.footer-content{
     display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    margin-bottom: 40px;
 }
 
-.footer-logo, .footer-links, .footer-social {
-    flex: 1;
-    min-width: 200px;
-}
-
-.footer-logo h3 {
-    color: #fff;
-    font-size: 1.8rem;
-    margin-bottom: 15px;
-}
-
-.footer-links h4, .footer-social h4 {
-    color: #fff;
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-}
-
-.footer-links ul {
-    list-style: none;
-}
-
-.footer-links ul li {
-    margin-bottom: 10px;
-}
-
-.footer-links ul li a {
-    color: #aaa;
-}
-
-.footer-links ul li a:hover {
-    color: #e74c3c;
-}
-
-.social-icons {
+.footer-colums{
     display: flex;
-    gap: 15px;
-}
-
-.social-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    background-color: #333;
-    color: #fff;
-    border-radius: 50%;
-    transition: all 0.3s ease;
-}
-
-.social-icon:hover {
-    background-color: #e74c3c;
-    color: #fff;
 }
 
 .footer-bottom {
-    text-align: center;
-    padding-top: 20px;
-    border-top: 1px solid #444;
+    margin: 73px 0 0 508px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
 }
