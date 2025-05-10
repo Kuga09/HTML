@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+scroll-behavior: smooth;
+}
+
 body {
     font-family: "Source Sans 3";
     color: #333333;
@@ -327,6 +331,10 @@ footer {
     color: white;
     font-size: 16px;
     font-weight: 400;
+}
+
+.footer-colum a:hover {
+    color: grey;
 }
 
 .footer-colum ul li{
