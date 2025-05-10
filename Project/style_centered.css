@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Source Sans 3";
+    color: #333333;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #607CE6;
+}
+
+a:hover {
+    color: #2855C7;
+}
+
+.more::after {
+    margin-left: 8px;
+    content: url(assets/mark.svg);
+}
+
+.support-cursor{
+    cursor: help;
+}
+
+/* Шапка сайта */
+header {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.top-header {
+    margin: 35px 0 36px 0;
+   
+}
+
+.top-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts {
+    display: flex;
+    gap: 30px;
+}
+
+.email, .phone {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-right:20px;
+}
+
+.phone{
+    margin-right: 0;
+}
+
+.call-me-span::after{
+    content: url(assets/phone.svg);
+}
+
+.email p, .phone p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.email a, .phone a {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main-header {
+    border-top: 1px solid #888888;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+nav ul {
+    margin: 16px 0 0 0;
+    padding-left: 0;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin-right: 44px;
+}
+
+.call-me{
+    margin-left: 32px;
+    margin-right: 0;
+}
+
+.call-me-link{
+    color: #607CE6;
+}
+
+nav ul li a {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Main */
+.hero{
+    margin: 0 auto;
+    width: 1180px;
+}
+.hero-content {
+    margin: 60px 0 40px;
+    display: flex;
+    justify-content:flex-start ;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0 15px 15px 0;
+    width: 580px;
+    height: 144px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-description {
+    margin-top: 26px;
+    width: 379px;
+}
+
+.hero-description p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+}
+
+.about{
+    margin: 80px auto 0 auto;
+    width: 1180px;
+    padding: 0;
+}
+
+.about h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.about-text{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.about-text p, .about-text-2{
+    margin-top: 0;
+    width: 580px;
+    font-size: 16px;
+}
+.about-text-1, .about-image-1{
+    margin-right:20px;
+}
+
+.about-text-2{
+    margin-bottom:32px;
+}
+
+.about-images{
+    display: flex;
+}
+
+.products{
+    margin: 0 auto;
+    width: 1180px;
+}
+
+.products-grid-first, .products-grid-second{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.products h2{
+    margin: 80px 0 32px 0;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.product-card{
+    width: 380px;
+    height: 435px;
+    background-color: #F5F5F5;
+}
+
+.product-card h3{
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0 0 12px 24px;
+}
+
+.product-card a{
+    color: #607CE6 ;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 32px 24px;
+}
+
+.marg{
+    margin-right: 20px;
+}
+
+.product-image-1{
+    margin: 32px 0 107px 24px;
+}
+
+.product-image-2{
+    margin: 55px 0 166px 24px;
+}
+
+.product-image-3{
+    margin: 32px 0 143px 24px;
+}
+
+.product-image-4{
+    margin: 32px 0 152px 24px;
+}
+
+.product-image-5{
+    margin: 32px 0 160px 24px;
+}
+
+.product-image-6{
+    margin: 32px 0 163px 24px;
+}
+
+.representatives{
+    margin: 0 auto;
+    width: 1180px;
+}
+
+.representatives h2{
+    margin: 80px 0 32px 0;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.news{
+    width: 1180px;
+    margin: 0 auto 80px auto;
+}
+
+.news h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin: 80px 0 32px 0;
+}
+
+.news-card h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 16px 0 83px 16px;
+    width: 348px;
+}
+
+.news-card-3 {
+    margin: 16px 0 111px 16px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 348px;
+}
+
+.news-grid{
+    display: flex;
+}
+
+.news-card{
+    width: 380px;
+    height: 478px;
+    background-color: #F5F5F5;
+    margin-right: 20px;
+}
+
+.news-date-more{
+    display: flex;
+    margin: 0 16px 24px 16px;
+    justify-content: space-between;
+}
+
+.news-more{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.news-date{
+    font-size: 16px;
+    font-weight: 400;
+    color: #888888;
+}
+
+/* Подвал */
+footer {
+    width: 100%;
+    height: 305px;
+    background-color: #333333;
+    padding: 56px 0 0 0;
+}
+
+.footer-logo{
+    margin-right: 420px;
+}
+
+.social{
+    margin-left: 32.5px;
+    margin-top: 80px;
+}
+
+.facebook, .instagram{
+    margin-right: 30px;
+}
+
+.twitter{
+    margin-right: 0;
+}
+
+.footer-colum{
+    margin-right: 57px;
+    width: 155px;
+    height: 191px;
+}
+
+.footer-colum a{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-colum a:hover {
+    color: grey;
+}
+
+.footer-colum ul li{
+    margin-bottom: 24px;
+}
+
+.footer-content {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.footer-colums{
+    display: flex;
+}
+
+.footer-bottom {
+    margin: 73px auto 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
