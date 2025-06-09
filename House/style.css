@@ -1,3 +1,8 @@
+:root {
+    --dark-color: #2C2D35;
+ }
+ 
+ 
  *{
     margin: 0;
     padding: 0;
@@ -7,8 +12,13 @@
 }
 
 .container {
-    width: 1140px;
     margin: 0 auto;
+}
+
+@media (min-width: 1440px) {
+    .container {
+        width: 1140px;
+    }
 }
 
 header {
@@ -48,7 +58,7 @@ header nav .container .links ul li {
 
 header nav .container .links ul li a {
     text-decoration: none;
-    color: #2C2D35;
+    color: var(--dark-color);
     font-size: 20px;
 }
 
@@ -136,7 +146,7 @@ main .three_section .container button:hover{
 
 .second_section .container .search_card ul li a {
     text-decoration: none;
-    color: #2C2D35;
+    color: var(--dark-color);
     background-color: #D4E8D9;
     font-size: 20px;
     padding: 10px 20px;
@@ -153,7 +163,7 @@ main .three_section .container button:hover{
     font-size: 40px;
     font-weight: 500;
     line-height: 44px;
-    color: #2C2D35;
+    color: var(--dark-color);
 }
 
 .second_section .cards {
@@ -183,7 +193,7 @@ main .three_section .container button:hover{
 }
 
 .second_section .cards .card h1 {
-    color: #2C2D35;
+    color:var(--dark-color);
     font-weight: 500;
     font-size: 30px;
     margin-bottom: 10px;
@@ -191,7 +201,7 @@ main .three_section .container button:hover{
 }
 
 .second_section .cards .card p:nth-child(4) {
-    color: #2C2D35;
+    color:var(--dark-color);
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 30px;
@@ -260,7 +270,7 @@ main .three_section .container button:hover{
 
 .three_section .container button {
     background-color: #EEDB6D;
-    color: #2C2D35;
+    color: var(--dark-color);
     font-size: 15px;
     cursor: pointer;
     border: none;
@@ -286,7 +296,7 @@ main .three_section .container button:hover{
 }
 
 .fourth_section .container .command h1 {
-    color: #2C2D35;
+    color: var(--dark-color);
     font-weight: 500;
     font-size: 40px;
     line-height: 40px;
@@ -297,7 +307,7 @@ main .three_section .container button:hover{
     width: 630px;
     line-height: 27px;
     font-size: 18px;
-    color: #2C2D35;
+    color: var(--dark-color);
     margin-bottom: 40px;
 }
 
@@ -329,7 +339,7 @@ footer .container .logo img {
 
 footer .container .logo p:nth-child(2) a {
     text-decoration: none;
-    color: #2C2D35;
+    color: var(--dark-color);
     font-size: 20px;
 }
 
@@ -373,82 +383,3 @@ footer .container .contact p{
     font-size: 12px;
 }
 
-#toggle-france {
-    display: none;
-}
-#toggle-germany {
-    display: none;
-}
-#toggle-england {
-    display: none;
-}
-
-.France {
-  display: block;
-  margin-top: 30px;
-}
-.England {
-  display: none;
-  margin-top: 30px;
-}
-.Germany {
-  display: none;
-  margin-top: 30px;
-}
-
-#toggle-france:checked ~ .France {
-    display: block;
-}
-#toggle-france:checked ~ .England {
-    display: none;
-}
-#toggle-france:checked ~ .Germany {
-    display: none;
-}
-
-
-#toggle-germany:checked ~ .France {
-    display: none;
-}
-#toggle-germany:checked ~ .England {
-    display: none;
-}
-#toggle-germany:checked ~ .Germany {
-    display: block;
-}
-
-
-#toggle-england:checked ~ .France {
-    display: none;
-}
-#toggle-england:checked ~ .England {
-    display: block;
-}
-#toggle-england:checked ~ .Germany {
-    display: none;
-}
-
-.toggle-label-france {
-    background-color: rgba(225, 237, 230, 1);
-    font-size: 20px;
-    border-radius: 30px;
-    padding: 10px 20px;
-    width:fit-content;
-    margin-left: 400px;
-}
-.toggle-label-germany {
-    background-color: rgba(225, 237, 230, 1);
-    font-size: 20px;
-    border-radius: 30px;
-    padding: 10px 20px;
-    width:fit-content;
-}
-
-.toggle-label-england {
-    background-color: rgba(225, 237, 230, 1);
-    font-size: 20px;
-    border-radius: 30px;
-    padding: 10px 20px;
-    width:fit-content;
-
-}
