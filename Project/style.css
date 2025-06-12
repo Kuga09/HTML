@@ -32,10 +32,14 @@ a:hover {
     content: url(assets/mark.svg);
 }
 
+.support-cursor{
+    cursor: help;
+}
+
 /* Шапка сайта */
 header {
     width: 1180px;
-    margin-left: 130px;
+    margin: 0 auto;
 }
 
 .top-header {
@@ -60,6 +64,7 @@ header {
     text-align: right;
     margin-right:20px;
 }
+
 .phone{
     margin-right: 0;
 }
@@ -113,7 +118,7 @@ nav ul li a {
 
 /* Main */
 .hero{
-    margin-left: 130px;
+    margin: 0 auto;
     width: 1180px;
 }
 .hero-content {
@@ -148,7 +153,7 @@ nav ul li a {
 }
 
 .about{
-    margin: 80px 0 0 130px;
+    margin: 80px auto 0 auto;
     width: 1180px;
     padding: 0;
 }
@@ -182,7 +187,7 @@ nav ul li a {
 }
 
 .products{
-    margin-left: 130px;
+    margin: 0 auto;
     width: 1180px;
 }
 
@@ -245,7 +250,7 @@ nav ul li a {
 }
 
 .representatives{
-    margin-left: 130px;
+    margin: 0 auto;
     width: 1180px;
 }
 
@@ -256,8 +261,8 @@ nav ul li a {
 }
 
 .news{
-    margin: 0 0 80px 130px;
-    width: 1180px; 
+    width: 1180px;
+    margin: 0 auto 80px auto;
 }
 
 .news h2{
@@ -312,13 +317,25 @@ nav ul li a {
 footer {
     width: 100%;
     height: 305px;
-    margin: 0;
     background-color: #333333;
-    padding: 56px 0 0 130px;
+    padding: 56px 0 0 0;
 }
 
 .footer-logo{
     margin-right: 420px;
+}
+
+.social{
+    margin-left: 32.5px;
+    margin-top: 80px;
+}
+
+.facebook, .instagram{
+    margin-right: 30px;
+}
+
+.twitter{
+    margin-right: 0;
 }
 
 .footer-colum{
@@ -341,7 +358,9 @@ footer {
     margin-bottom: 24px;
 }
 
-.footer-content{
+.footer-content {
+    max-width: 1180px;
+    margin: 0 auto;
     display: flex;
 }
 
@@ -350,7 +369,8 @@ footer {
 }
 
 .footer-bottom {
-    margin: 73px 0 0 508px;
+    margin: 73px auto 0 auto;
+    text-align: center;
     color: white;
     font-size: 14px;
     font-weight: 400;
