@@ -391,12 +391,10 @@ body, button {
     margin-bottom: 20px;
   }
 
-  /* Скрываем стандартный блок с телефоном и "Мастерская" на мобиле */
   .contacts-info {
     display: none;
   }
 
-  /* Показываем мобильную строку */
   .footer-row-mobile {
     display: flex;
     justify-content: space-between;
@@ -421,7 +419,6 @@ body, button {
     margin-bottom: 0;
   }
 
-  /* Скрываем "Репродукции" в общем списке ссылок на мобиле */
   .footer-link-rep {
     display: none;
   }
